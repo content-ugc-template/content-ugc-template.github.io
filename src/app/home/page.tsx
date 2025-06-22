@@ -34,7 +34,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center gap-1 w-full px-6 md:px-10">
             <div className="w-full h-[1.5px] bg-white" />
-            <p className="text-xl tracking-widest">CREADORA DE CONTENIDO UGC</p>
+            <p className="text-xl text-center tracking-widest">CREADORA DE CONTENIDO UGC</p>
           </div>
         </div>
       </div>
