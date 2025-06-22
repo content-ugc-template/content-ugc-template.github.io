@@ -1,8 +1,12 @@
-name: publish-to-github-pages
+name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
       - master
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -13,7 +17,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npm run export
+      - run: npm run build
       - run: touch out/.nojekyll
       - uses: peaceiris/actions-gh-pages@v4
         with:
