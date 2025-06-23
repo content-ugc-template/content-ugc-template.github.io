@@ -1,5 +1,4 @@
 import "./globals.css";
-import "aos/dist/aos.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import AOSProvider from "@/config/AOSProvider";
