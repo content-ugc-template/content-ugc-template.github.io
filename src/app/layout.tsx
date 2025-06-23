@@ -1,7 +1,20 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { MantineProvider } from "@mantine/core";
 import Navbar from "@/components/Navbar";
+import { Anton, Inter } from "next/font/google";
+import { MantineProvider } from "@mantine/core";
+
+export const anton = Anton({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-anton",
+});
+
+export const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Contenido UGC",
@@ -15,10 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className="flex flex-col min-h-screen">
+      <body className={`${inter.className}`}>
         <Navbar />
         <MantineProvider>
-          <main className="flex-1 flex flex-col">{children}</main>
+          <main>{children}</main>
         </MantineProvider>
       </body>
     </html>
