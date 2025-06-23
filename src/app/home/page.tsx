@@ -13,7 +13,7 @@ const Home = () => {
         <div className="z-20 w-full flex justify-center md:justify-end items-center md:items-end">
           <div className="flex flex-col items-center gap-3">
             <span className={`${anton.className} text-7xl md:text-6xl lg:text-7xl text-center`}>
-              <span className="md:text-black">Razan</span> Smith
+              <span className="md:text-black">Razan</span> <span className="text-black md:text-white">Smith</span>
             </span>
             <p>Content UGC</p>
 
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="absolute z-10 inset-0 w-full h-full flex flex-col justify-start md:justify-center items-end gap-5 pe-4 text-white">
+      <div className="absolute z-10 inset-0 w-full h-full flex flex-col justify-start md:justify-center items-end gap-5 pt-4 md:pt-0 pe-4 text-white">
         <ButtonActionCustom>
           <TbBrandFacebookFilled />
         </ButtonActionCustom>
