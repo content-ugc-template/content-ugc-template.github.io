@@ -1,6 +1,8 @@
 import "./globals.css";
+import "aos/dist/aos.css";
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import AOSProvider from "@/config/AOSProvider";
 import { Anton, Inter } from "next/font/google";
 import { MantineProvider } from "@mantine/core";
 
@@ -31,7 +33,9 @@ export default function RootLayout({
       <body className={`${inter.className}`}>
         <Navbar />
         <MantineProvider>
-          <main>{children}</main>
+          <AOSProvider>
+            <main className="pt-15">{children}</main>
+          </AOSProvider>
         </MantineProvider>
       </body>
     </html>

@@ -5,6 +5,7 @@ import { TbBrandTwitterFilled } from "react-icons/tb";
 import { TbBrandWhatsappFilled } from "react-icons/tb";
 import { TbBrandFacebookFilled } from "react-icons/tb";
 import ButtonActionCustom from "@/components/ButtonActionCustom";
+import AosAnimator from "@/components/AosAnimator";
 
 const Home = () => {
   return (
@@ -13,7 +14,12 @@ const Home = () => {
       className="relative bg-black w-full h-screen min-h-[600px] flex flex-row justify-center md:justify-start items-center"
     >
       <div className="md:bg-white/40 w-full md:w-1/2 flex justify-end text-white py-2">
-        <div className="z-20 w-full flex justify-center md:justify-end items-center md:items-end">
+        <AosAnimator
+          once={false}
+          animation="fade-right"
+          duration={1000}
+          className="z-20 w-full flex justify-center md:justify-end items-center md:items-end"
+        >
           <div className="flex flex-col items-center gap-3">
             <span className={`${anton.className} text-7xl md:text-6xl lg:text-7xl text-center`}>
               <span className="md:text-black">Razan</span> <span className="text-black md:text-white">Smith</span>
@@ -25,7 +31,7 @@ const Home = () => {
               <ButtonCustom className="font-medium text-white">Portafolio</ButtonCustom>
             </div>
           </div>
-        </div>
+        </AosAnimator>
       </div>
 
       <div className="absolute z-10 inset-0 w-full h-full flex flex-col justify-start md:justify-center items-end gap-5 pt-4 md:pt-0 pe-4 text-white">
