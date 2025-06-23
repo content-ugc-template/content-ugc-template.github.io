@@ -23,6 +23,12 @@
       }
     ],
     "paths": {
+      "@/services*": [
+        "./src/app/services/*"
+      ],
+      "@/about*": [
+        "./src/app/about/*"
+      ],
       "@/home*": [
         "./src/app/home/*"
       ],
