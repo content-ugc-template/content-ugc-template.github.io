@@ -23,7 +23,7 @@ export default function Home() {
           </h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 text-white w-full gap-3 md:gap-0 pb-2 md:pb-0">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-white w-full gap-3 md:gap-0 pb-3 md:pb-0">
           <div className="flex justify-center gap-3">
             <ButtonCustom href="">
               <FaInstagram className="mr-2" /> @thecrisvlog
