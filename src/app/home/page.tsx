@@ -4,7 +4,7 @@ import { FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="relative w-full h-screen flex flex-col justify-end">
+    <div className="relative w-full flex-1 min-h-[600px] flex flex-col justify-end">
       <div className="absolute inset-0 flex flex-col-reverse md:flex-row bg-black/60 md:bg-gradient-to-b md:from-black md:to-black/60">
         <div className="w-full md:w-1/2"></div>
 
@@ -13,10 +13,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex flex-col justify-around items-start w-full h-3/4">
-        <div className="relative text-gray-300 uppercase px-4 md:px-6">
+      <div className="relative flex flex-col justify-around items-start w-full flex-1">
+        <div></div>
+
+        <div className="relative text-gray-300 uppercase px-3 md:px-6">
           <p className="text-2xl tracking-widest">¿Conoces mi trabajo?</p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl  font-serif font-thin text-white/90 leading-tight whitespace-nowrap z-20">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl  font-serif font-thin text-white/90 leading-tight whitespace-nowrap z-20">
             The Cris Vlog
           </h1>
         </div>
