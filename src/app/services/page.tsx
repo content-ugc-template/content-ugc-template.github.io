@@ -32,7 +32,7 @@ function Services() {
         />
       </div>
 
-      <div className="flex flex-col justify-center text-white w-full lg:h-full lg:w-1/3 gap-6">
+      <div className="flex flex-col justify-center items-center lg:items-start text-white w-full lg:h-full lg:w-1/3 gap-6">
         <TitleCustom title="Servicios" />
 
         <div className="flex flex-col items-center md:items-start gap-3">
