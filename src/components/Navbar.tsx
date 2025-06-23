@@ -75,7 +75,7 @@ function Navbar() {
     <div
       className={`
         fixed top-0 left-0 right-0 z-50
-        flex items-center justify-between h-15 w-full bg-black px-8 py-6 font-bold text-md
+        flex items-center justify-between h-16 w-full bg-black px-8 py-6 font-bold text-md
         transition-transform duration-300 ease-in-out
         ${showNavbar ? "translate-y-0" : "-translate-y-full"}
       `}
