@@ -8,14 +8,17 @@ import ButtonActionCustom from "@/components/ButtonActionCustom";
 
 const Home = () => {
   return (
-    <div className="relative bg-black w-full h-screen min-h-[600px] flex flex-row justify-center md:justify-start items-center">
+    <section
+      id="home"
+      className="relative bg-black w-full h-screen min-h-[600px] flex flex-row justify-center md:justify-start items-center"
+    >
       <div className="md:bg-white/40 w-full md:w-1/2 flex justify-end text-white py-2">
         <div className="z-20 w-full flex justify-center md:justify-end items-center md:items-end">
           <div className="flex flex-col items-center gap-3">
             <span className={`${anton.className} text-7xl md:text-6xl lg:text-7xl text-center`}>
               <span className="md:text-black">Razan</span> <span className="text-black md:text-white">Smith</span>
             </span>
-            <p>Content UGC</p>
+            <p className="font-semibold">Content UGC</p>
 
             <div className="flex justify-center gap-3 text-sm px-4 mt-6">
               <ButtonCustom className="font-medium bg-black text-white">Contactame</ButtonCustom>
@@ -40,7 +43,7 @@ const Home = () => {
       <div className="absolute top-0 right-0 w-full md:w-10/13 h-full flex items-start justify-end">
         <Image src="/me.png" alt="Me" fill className="object-cover object-center" />
       </div>
-    </div>
+    </section>
   );
 };
 
