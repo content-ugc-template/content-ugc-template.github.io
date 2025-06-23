@@ -7,7 +7,7 @@ function Services() {
   return (
     <section
       id="services"
-      className="relative bg-black w-full h-max flex flex-col lg:flex-row-reverse lg:flex-wrap items-center justify-center lg:justify-around space-y-8 px-4 py-10"
+      className="relative bg-black w-full h-max flex flex-col lg:flex-row-reverse lg:flex-wrap items-center justify-center lg:justify-around space-y-10 lg:space-y-0 px-4 py-10"
     >
       <div className="relative w-full lg:w-1/2 grid grid-cols-1 lg:grid-cols-2 gap-4">
         <ServiceCard
