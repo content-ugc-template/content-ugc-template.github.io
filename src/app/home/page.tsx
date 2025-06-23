@@ -41,7 +41,7 @@ const Home = () => {
       </div>
 
       <div className="absolute top-0 right-0 w-full md:w-10/13 h-full flex items-start justify-end">
-        <Image src="/me.png" alt="Me" fill className="object-cover object-center" />
+        <Image src="/me.png" alt="Me" fill className="object-cover object-center opacity-60 md:opacity-100" />
       </div>
     </section>
   );
