@@ -14,9 +14,9 @@ function ButtonCustom({ children, onClick, className, disabled = false }: Button
       onClick={onClick}
       className={`
         ${className}
-        flex flex-row items-center gap-2 text-black  px-8 py-2 rounded-4xl shadow-xl text-center
+        flex flex-row items-center gap-2 text-black px-6 py-2 rounded-4xl  text-center
         transition-all duration-300 ease-in-out
-        hover:shadow-2xl hover:scale-108
+        hover:scale-108
         focus:outline-none
         cursor-pointer`}
     >

@@ -18,8 +18,8 @@ const Home = () => {
             <p>Content UGC</p>
 
             <div className="flex justify-center gap-3 text-sm px-4 mt-6">
-              <ButtonCustom className="font-medium bg-black text-white">Portafolio</ButtonCustom>
-              <ButtonCustom className="font-medium bg-white">Contactame</ButtonCustom>
+              <ButtonCustom className="font-medium bg-black text-white">Contactame</ButtonCustom>
+              <ButtonCustom className="font-medium text-white">Portafolio</ButtonCustom>
             </div>
           </div>
         </div>
