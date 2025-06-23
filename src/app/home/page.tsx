@@ -16,9 +16,9 @@ export default function Home() {
       <div className="relative flex flex-col justify-around items-start w-full flex-1">
         <div></div>
 
-        <div className="relative text-gray-300 uppercase px-3 md:px-6">
-          <p className="text-2xl tracking-widest">¿Conoces mi trabajo?</p>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl  font-serif font-thin text-white/90 leading-tight whitespace-nowrap z-20">
+        <div className="relative text-gray-300 uppercase px-3 md:px-6 w-full text-center md:text-start">
+          <p className="text-lg md:text-2xl tracking-widest">¿Conoces mi trabajo?</p>
+          <h1 className="text-4xl md:text-7xl lg:text-8xl xl:text-9xl  font-serif font-thin text-white/90 leading-tight whitespace-nowrap z-20">
             The Cris Vlog
           </h1>
         </div>
